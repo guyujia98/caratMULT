@@ -1,0 +1,25 @@
+{
+    "args": [
+        "-std=gnu++11",
+        "-IF:/R/R-4.2.2/include",
+        "-DNDEBUG",
+        "-fopenmp",
+        "-IF:/R/R-4.2.2/library/Rcpp/include",
+        "-IF:/R/R-4.2.2/library/RcppArmadillo/include",
+        "-nostdinc",
+        "-D__GNUC__=5",
+        "-D__GNUC_MINOR__=0",
+        "-D__GNUC_PATCHLEVEL__=2",
+        "-IC:/rtools42/x86_64-w64-mingw32.static.posix/lib/gcc/x86_64-w64-mingw32.static.posix/10.3.0/include/c++",
+        "-IC:/rtools42/x86_64-w64-mingw32.static.posix/lib/gcc/x86_64-w64-mingw32.static.posix/10.3.0/include/c++/x86_64-w64-mingw32.static.posix",
+        "-IC:/rtools42/x86_64-w64-mingw32.static.posix/lib/gcc/x86_64-w64-mingw32.static.posix/10.3.0/include/c++/backward",
+        "-IC:/rtools42/x86_64-w64-mingw32.static.posix/lib/gcc/x86_64-w64-mingw32.static.posix/10.3.0/include",
+        "-IC:/rtools42/x86_64-w64-mingw32.static.posix/include",
+        "-IC:/rtools42/x86_64-w64-mingw32.static.posix/lib/gcc/x86_64-w64-mingw32.static.posix/10.3.0/include-fixed"
+    ],
+    "pch": "RcppArmadillo",
+    "is_cpp": true,
+    "hash": "168480939416832738481683273848",
+    "compiler": "17486434899767519736",
+    "rversion": "4.2.2"
+}

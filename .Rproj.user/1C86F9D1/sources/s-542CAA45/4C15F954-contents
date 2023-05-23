@@ -1,0 +1,10 @@
+library(Rcpp)
+library(RcppArmadillo)
+library(roxygen2)
+library(devtools)
+library(dplyr)
+use_rcpp()
+Rcpp::compileAttributes()           # this updates the Rcpp layer from C++ to R
+roxygen2::roxygenize(roclets="rd")  # this updates the documentation
+load_all()
+?build_manual()

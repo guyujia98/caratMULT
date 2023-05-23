@@ -1,0 +1,15 @@
+Package: caratMULT
+Type: Package
+Title: Analysis Methods for Covariate-Adaptive Randomized Trials with Multiple Treatments
+Encoding: UTF-8
+Version: 0.0.1
+Date: 2023-05-05
+Author: Yujia Gu [aut, cre], Hanzhong Liu [aut, ths],Wei Ma  [aut, ths]
+Maintainer: Yujia Gu  <guyujia98@ruc.edu.cn>
+Description: This package implements all of the estimators considered in Gu et al. (2023) for estimating and inferring the multiple treatment effect under covariate-adaptive randomization.
+License: GPL (>= 3)
+Imports: 
+    dplyr,
+    Rcpp
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.2.3

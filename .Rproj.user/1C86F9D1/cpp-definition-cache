@@ -1,0 +1,35 @@
+[
+    {
+        "file": "F:/Rprogram/caratMULT/src/est_cal.cpp",
+        "file_last_write": 1684206521.0,
+        "definitions": [
+            {
+                "usr": "c:@F@coef_cal_sc#$@N@arma@S@Col>#d#S0_#$@N@arma@S@Mat>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "coef_cal_sc(arma::vec, arma::vec, arma::mat)",
+                "file": "F:/Rprogram/caratMULT/src/est_cal.cpp",
+                "line": 11,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@coef_cal_ss#$@N@arma@S@Col>#d#S0_#S0_#$@N@arma@S@Mat>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "coef_cal_ss(arma::vec, arma::vec, arma::vec, arma::mat)",
+                "file": "F:/Rprogram/caratMULT/src/est_cal.cpp",
+                "line": 44,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@coef_cal_sc_new#$@N@arma@S@Col>#d#S0_#$@N@arma@S@Mat>#d#S0_#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "coef_cal_sc_new(arma::vec, arma::vec, arma::mat, arma::vec, arma::vec)",
+                "file": "F:/Rprogram/caratMULT/src/est_cal.cpp",
+                "line": 97,
+                "column": 11
+            }
+        ]
+    }
+]
