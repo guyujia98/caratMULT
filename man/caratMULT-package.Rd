@@ -17,6 +17,7 @@ randomization.} In review.
 }
 \author{
 \packageAuthor{caratMULT}
+ 
  Maintainer: \packageMaintainer{caratMULT}
 }
 \keyword{package}
