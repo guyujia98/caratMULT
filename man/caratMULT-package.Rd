@@ -8,4 +8,15 @@
 \description{
 This package implements all of the estimators considered in Gu et al. (2023) for estimating and inferring the multiple treatment effect under covariate-adaptive randomization.
 }
-\keyword{internal}
+\details{
+\packageIndices{caratMULT}
+}
+\references{
+Gu Y., Liu H., Ma W.(2023) \emph{Regression-based multiple treatment effect estimation under covariate-adaptive 
+randomization.} In review.
+}
+\author{
+\packageAuthor{caratMULT}
+ Maintainer: \packageMaintainer{caratMULT}
+}
+\keyword{package}
