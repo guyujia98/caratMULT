@@ -4,7 +4,7 @@
 \name{caratMULT-package}
 \alias{caratMULT}
 \alias{caratMULT-package}
-\title{caratMULT: Analysis Methods for Covariate-Adaptive Randomized Trials with Multiple Treatments}
+\title{caratMULT: Regression-Based Estimators for Covariate-Adaptive Randomized Trials with Multiple Treatments}
 \description{
 This package implements all of the estimators considered in Gu et al. (2023) for estimating and inferring the multiple treatment effect under covariate-adaptive randomization.
 }

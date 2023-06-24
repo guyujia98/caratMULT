@@ -31,11 +31,11 @@ input_check <- function(Y,X,B,A,a,b){
 
 #' Plug-in estimator
 #' 
-#' Estimating and inferring the treatment effect based on plug-in estimator.
+#' Estimating and inferring the treatment effect based on the plug-in estimator.
 #' 
-#' Estimating and inferring the treatment effect based on plug-in estimator. The estimator can also be
-#' derived by fully saturated model in Bugni et al.(2019). It is the benchmark estimator described in Section 3.1, 
-#' Gu et al.(2023).
+#' Estimating and inferring the treatment effect based on the plug-in estimator. The estimator can also be
+#' derived by fully saturated model in Bugni et al. (2019). It is the benchmark estimator described in Section 3.1, 
+#' Gu et al. (2023).
 #' 
 #' @param Y a numeric vector of observed outcomes. Its length should be the same as the number of subjects.
 #' @param A a numeric vector of treatment assignments. The assignments should be consecutive integers from 0 to nA, where 
@@ -53,9 +53,9 @@ input_check <- function(Y,X,B,A,a,b){
 #' difference between treatment group and control group.} \item{method}{a
 #' character string indicating what type of regression was performed.}
 #' 
-#' @references Bugni, F. A., Canay, I. A., & Shaikh, A. M. (2019).\emph{Inference under covariate-adaptive 
+#' @references Bugni, F. A., Canay, I. A., & Shaikh, A. M. (2019). \emph{Inference under covariate-adaptive 
 #' randomization with multiple treatments}. Quantitative Economics 10, 1747–1785.
-#' @references Gu Y., Liu H., Ma W.(2023) \emph{Regression-based multiple treatment effect estimation under covariate-adaptive 
+#' @references Gu Y., Liu H., Ma W.(2023). \emph{Regression-based multiple treatment effect estimation under covariate-adaptive 
 #' randomization.} In review.
 #' 
 #' @examples 
@@ -120,9 +120,9 @@ tau.pl <- function(Y,A,B,a,b,conf.level=0.95){
 
 #' Stratum-common estimator
 #' 
-#' Estimating and inferring the treatment effect based on stratum-common estimator.
+#' Estimating and inferring the treatment effect based on the stratum-common estimator.
 #' 
-#' Estimating and inferring the treatment effect based on stratum-common estimator. It implements the 
+#' Estimating and inferring the treatment effect based on the stratum-common estimator. It implements the 
 #' methods as described in Section 3.2, Gu et al.(2023).
 #' 
 #' @param Y a numeric vector of observed outcomes. Its length should be the same as the number of subjects.
@@ -142,7 +142,7 @@ tau.pl <- function(Y,A,B,a,b,conf.level=0.95){
 #' difference between treatment group and control group.} \item{method}{a
 #' character string indicating what type of regression was performed.}
 #' 
-#' @references Gu Y., Liu H., Ma W.(2023) \emph{Regression-based multiple treatment effect estimation under covariate-adaptive 
+#' @references Gu Y., Liu H., Ma W.(2023). \emph{Regression-based multiple treatment effect estimation under covariate-adaptive 
 #' randomization.} In review.
 #' 
 #' @examples 
@@ -206,9 +206,9 @@ tau.sc <- function(Y,X,A,B,a,b,conf.level=0.95){
 
 #' Stratum-specific estimator
 #' 
-#' Estimating and inferring the treatment effect based on stratum-specific estimator.
+#' Estimating and inferring the treatment effect based the on the stratum-specific estimator.
 #' 
-#' Estimating and inferring the treatment effect based on stratum-specific estimator. It implements the 
+#' Estimating and inferring the treatment effect based on the stratum-specific estimator. It implements the 
 #' methods as described in Section 3.3, Gu et al.(2023).
 #' 
 #' @param Y a numeric vector of observed outcomes. Its length should be the same as the number of subjects.
@@ -228,7 +228,7 @@ tau.sc <- function(Y,X,A,B,a,b,conf.level=0.95){
 #' difference between treatment group and control group.} \item{method}{a
 #' character string indicating what type of regression was performed.}
 #' 
-#' @references Gu Y., Liu H., Ma W.(2023) \emph{Regression-based multiple treatment effect estimation under covariate-adaptive 
+#' @references Gu Y., Liu H., Ma W.(2023). \emph{Regression-based multiple treatment effect estimation under covariate-adaptive 
 #' randomization.} In review.
 #' 
 #' @examples 

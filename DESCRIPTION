@@ -1,6 +1,6 @@
 Package: caratMULT
 Type: Package
-Title: Analysis Methods for Covariate-Adaptive Randomized Trials with Multiple Treatments
+Title: Regression-Based Estimators for Covariate-Adaptive Randomized Trials with Multiple Treatments
 Encoding: UTF-8
 Version: 0.0.1
 Date: 2023-05-05

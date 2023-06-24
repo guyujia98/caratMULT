@@ -29,12 +29,12 @@ difference between treatment group and control group.} \item{method}{a
 character string indicating what type of regression was performed.}
 }
 \description{
-Estimating and inferring the treatment effect based on plug-in estimator.
+Estimating and inferring the treatment effect based on the plug-in estimator.
 }
 \details{
-Estimating and inferring the treatment effect based on plug-in estimator. The estimator can also be
-derived by fully saturated model in Bugni et al.(2019). It is the benchmark estimator described in Section 3.1, 
-Gu et al.(2023).
+Estimating and inferring the treatment effect based on the plug-in estimator. The estimator can also be
+derived by fully saturated model in Bugni et al. (2019). It is the benchmark estimator described in Section 3.1, 
+Gu et al. (2023).
 }
 \examples{
 #The code replicates the simulation setting of Model 1 in Section 4, Gu et al. (2023).
@@ -73,9 +73,9 @@ Y <- Y + rnorm(N,0,1)
 tau.pl(Y,A=trt,B=X1,a=1,b=0)
 }
 \references{
-Bugni, F. A., Canay, I. A., & Shaikh, A. M. (2019).\emph{Inference under covariate-adaptive 
+Bugni, F. A., Canay, I. A., & Shaikh, A. M. (2019). \emph{Inference under covariate-adaptive 
 randomization with multiple treatments}. Quantitative Economics 10, 1747–1785.
 
-Gu Y., Liu H., Ma W.(2023) \emph{Regression-based multiple treatment effect estimation under covariate-adaptive 
+Gu Y., Liu H., Ma W.(2023). \emph{Regression-based multiple treatment effect estimation under covariate-adaptive 
 randomization.} In review.
 }

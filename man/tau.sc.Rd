@@ -31,10 +31,10 @@ difference between treatment group and control group.} \item{method}{a
 character string indicating what type of regression was performed.}
 }
 \description{
-Estimating and inferring the treatment effect based on stratum-common estimator.
+Estimating and inferring the treatment effect based on the stratum-common estimator.
 }
 \details{
-Estimating and inferring the treatment effect based on stratum-common estimator. It implements the 
+Estimating and inferring the treatment effect based on the stratum-common estimator. It implements the 
 methods as described in Section 3.2, Gu et al.(2023).
 }
 \examples{
@@ -74,6 +74,6 @@ Y <- Y + rnorm(N,0,1)
 tau.sc(Y,X2,trt,X1,1,0)
 }
 \references{
-Gu Y., Liu H., Ma W.(2023) \emph{Regression-based multiple treatment effect estimation under covariate-adaptive 
+Gu Y., Liu H., Ma W.(2023). \emph{Regression-based multiple treatment effect estimation under covariate-adaptive 
 randomization.} In review.
 }
